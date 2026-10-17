@@ -1,0 +1,185 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "origin": {
+      "id": "1",
+      "name": "Tehran",
+      "value": "Tehran"
+    },
+    "destination": {
+      "id": "2",
+      "name": "Sananndaj",
+      "value": "Sananndaj"
+    },
+    "startDate": "2026-12-01T00:00:00.000Z",
+    "endDate": "2026-12-05T00:00:00.000Z",
+    "title": "Kordestan tour",
+    "fleetVehicle": "bus",
+    "price": 105000,
+    "availableSeats": 16,
+    "capacity": 30,
+    "insurance": true,
+    "options": [
+      "Tour Guide",
+      "Private beach",
+      "breakfast,lunch,dinner"
+    ],
+    "image": "/static/images/kurdestanTour.png"
+  },
+  {
+    "id": "b2c3d4e5-f678-90ab-cdef-234567890abc",
+    "origin": {
+      "id": "2",
+      "name": "Sananndaj",
+      "value": "Sananndaj"
+    },
+    "destination": {
+      "id": "3",
+      "name": "Madrid",
+      "value": "Madrid"
+    },
+    "startDate": "2026-11-10T00:00:00.000Z",
+    "endDate": "2026-11-25T00:00:00.000Z",
+    "title": "Madrid tour",
+    "fleetVehicle": "ship",
+    "price": 240000,
+    "availableSeats": 4,
+    "capacity": 150,
+    "insurance": false,
+    "options": [
+      "Tour Guide",
+      "lunch,dinner"
+    ],
+    "image": "/static/images/madridTour.png"
+  },
+  {
+    "id": "c3d4e5f6-7890-abcd-ef12-34567890abcd",
+    "origin": {
+      "id": "4",
+      "name": "Isfahan",
+      "value": "Isfahan"
+    },
+    "destination": {
+      "id": "5",
+      "name": "Sulaymaniyah",
+      "value": "Sulaymaniyah"
+    },
+    "startDate": "2026-11-01T00:00:00.000Z",
+    "endDate": "2026-11-10T00:00:00.000Z",
+    "title": "Sulaymaniyah",
+    "fleetVehicle": "train",
+    "price": 35000,
+    "availableSeats": 25,
+    "capacity": 50,
+    "insurance": true,
+    "options": [
+      "breakfast,lunch",
+      "5-Star Hotel"
+    ],
+    "image": "/static/images/sulaymaniyahTour.png"
+  },
+  {
+    "id": "d4e5f678-90ab-cdef-1234-567890abcdef",
+    "origin": {
+      "id": "1",
+      "name": "Tehran",
+      "value": "Tehran"
+    },
+    "destination": {
+      "id": "6",
+      "name": "Hewler",
+      "value": "Hewler"
+    },
+    "startDate": "2026-11-15T00:00:00.000Z",
+    "endDate": "2026-11-22T00:00:00.000Z",
+    "title": "Hewler",
+    "fleetVehicle": "airplane",
+    "price": 105000,
+    "availableSeats": 14,
+    "capacity": 30,
+    "insurance": false,
+    "options": [
+      "breakfast,lunch",
+      "5-Star Hotel"
+    ],
+    "image": "/static/images/arbilTour.png"
+  },
+  {
+    "id": "e5f67890-abcd-ef12-3456-7890abcdef12",
+    "origin": {
+      "id": "1",
+      "name": "Tehran",
+      "value": "Tehran"
+    },
+    "destination": {
+      "id": "7",
+      "name": "Mazandaran",
+      "value": "Mazandaran"
+    },
+    "startDate": "2026-12-01T00:00:00.000Z",
+    "endDate": "2026-12-15T00:00:00.000Z",
+    "title": "Mazandaran tour",
+    "fleetVehicle": "SUV",
+    "price": 185000,
+    "availableSeats": 297,
+    "capacity": 350,
+    "insurance": true,
+    "options": [
+      "breakfast,lunch",
+      "5-Star Hotel"
+    ],
+    "image": "/static/images/mazandaranTour.png"
+  },
+  {
+    "id": "f67890ab-cdef-1234-5678-90abcdef1234",
+    "origin": {
+      "id": "1",
+      "name": "Tehran",
+      "value": "Tehran"
+    },
+    "destination": {
+      "id": "8",
+      "name": "Gilan",
+      "value": "Gilan"
+    },
+    "startDate": "2027-01-10T00:00:00.000Z",
+    "endDate": "2027-01-16T00:00:00.000Z",
+    "title": "Off-Road Tour",
+    "fleetVehicle": "SUV",
+    "price": 35000,
+    "availableSeats": 23,
+    "capacity": 250,
+    "insurance": true,
+    "options": [
+      "breakfast,lunch",
+      "5-Star Hotel"
+    ],
+    "image": "/static/images/offroadTour.png"
+  },
+  {
+    "id": "67890abc-def1-2345-6789-0abcdef12345",
+    "origin": {
+      "id": "1",
+      "name": "Tehran",
+      "value": "Tehran"
+    },
+    "destination": {
+      "id": "9",
+      "name": "Italy",
+      "value": "Italy"
+    },
+    "startDate": "2027-02-01T00:00:00.000Z",
+    "endDate": "2027-02-20T00:00:00.000Z",
+    "title": "Italy tour",
+    "fleetVehicle": "airplane",
+    "price": 18000,
+    "availableSeats": 19,
+    "capacity": 200,
+    "insurance": true,
+    "options": [
+      "breakfast,lunch",
+      "5-Star Hotel"
+    ],
+    "image": "/static/images/italyTour.png"
+  }
+]
