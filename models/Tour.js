@@ -9,7 +9,8 @@ const getAllTours = async () => {
 
 	tours = await tours.map((tour) => {
 		if (tour) {
-			tour.image = `http://localhost:${PORT}${tour?.image}`;
+			// tour.image = `http://localhost:${PORT}${tour?.image}`;
+			tour.image = `${process.env.BASE_URL}${tour?.image}`;
 		}
 
 		return tour;
@@ -22,7 +23,8 @@ const getTourById = async (id) => {
 	const tours = await readData(TOURS_FILE);
 	let data = await tours.find((tour) => tour.id === id);
 	if (data) {
-		data.image = `http://localhost:${PORT}${data?.image}`;
+		// data.image = `http://localhost:${PORT}${data?.image}`;
+		data.image = `${process.env.BASE_URL}${data?.image}`;
 	}
 	// console.log(data, 'test');
 	return data;
